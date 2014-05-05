@@ -13,13 +13,18 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-
+\usepackage{fancyhdr}
+\usepackage{lastpage}
 
 \name{Amelia A. McNamara} 
 \address{amelia.mcnamara@stat.ucla.edu \\ www.stat.ucla.edu/$\sim$amelia.mcnamara} 
 
-\begin{document}
 
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{ \thepage\ of \pageref{LastPage}}
+\begin{document}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -29,11 +34,11 @@
 
 {\bf University of California - Los Angeles,} Los Angeles, CA \hfill Ph.D. candidate\\ 
 {\bf Field:} Statistics \hfill GPA 3.90 \smallskip \\
-{\bf Honors:} Chancellor's Prize Summer Fellowship (2010-2011), \\ National Science Foundation Graduate Research Fellowship Program Honorable Mention (2012)\\
+{\bf Honors:} Chancellor's Prize Summer Fellowship (2010-2011), \\National Science Foundation Graduate Research Fellowship Program Honorable Mention (2012), \\Collegium of University Teaching Fellows (2014-2015)
 
 {\bf Macalester College,} St. Paul, MN \hfill B.A. May 2010 \\
 {\bf Majors:} Mathematics, English \hfill GPA 3.63 \smallskip \\
-{\bf Honors:} {\em Cum laude} honors (2010), Dean's List (Fall 2008, Spring 2009, Spring 2010), Alliss Scholarship (2007-2010), Xcel Energy Foundation Scholarship (2009-2010), Konhauser Prize for Mathematical Achievement (2010) \\
+{\bf Honors:} {\em Cum laude} honors (2010), Dean's List (Fall 2008, Spring 2009, Spring 2010), Alliss Scholarship (2007-2010), Xcel Energy Foundation Scholarship (2009-2010), Konhauser Prize for Mathematical Achievement (2010)
 
 {\bf University of Cincinnati,} Cincinnati, OH \hfill 2006-2007 \\
 {\bf College:} Design, Architecture, Art and Planning (DAAP) \hfill GPA 3.80 \smallskip \\
@@ -85,7 +90,7 @@
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Employment}
 
-\begin{rSubsection}{UCLA Statistics Department, }{Los Angeles, CA}{2013-present}{Statistics Teaching Assistant}
+\begin{rSubsection}{UCLA Statistics Department, }{Los Angeles, CA}{2013-present}{Statistics Teaching Fellow}
 \item Led weekly discussion section for students
 \item Held twice-weekly office hours
 \item Assisted students' statistics and R learning
@@ -152,10 +157,16 @@ McNamara, A. {\bf Dynamic Documents with R and knitr} (book review). {\em Journa
 \begin{sSubsection}{Teaching Data Science to Teenagers}{ (invited talk, with M. Hansen)}{July 2014}{International Conference on Teaching Statistics}{Flagstaff, AZ}
 \end{sSubsection}
 
+\begin{sSubsection}{Teaching R to High School Students}{ (with J. Molyneux)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{LivelyR: Making R Charts Livelier}{ (main author A. Lunzer)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
+\end{sSubsection}
+
 \begin{sSubsection}{Data Visualization on the Soul of the Community}{}{August 2013}{Joint Statistical Meetings}{Montreal, QC}
 \end{sSubsection}
 
-\begin{sSubsection}{Mobilize Project}{ (oral, with J. Margolis and L. Trusela)} {January 2012}{Math Science Partnership Learning Network Conference}{Washington, DC}
+\begin{sSubsection}{Mobilize Project}{ (with J. Margolis and L. Trusela)} {January 2012}{Math Science Partnership Learning Network Conference}{Washington, DC}
 \end{sSubsection}
 
 \begin{sSubsection}{Model and Optimization of Organic Photovoltaic Cells}{}{January 2010}{Joint Meeting of AMS and MAA}{San Francisco, CA}
@@ -176,6 +187,12 @@ McNamara, A. {\bf Dynamic Documents with R and knitr} (book review). {\em Journa
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Additional Conferences and Workshops Attended}
+
+\begin{sSubsection}{rOpenSci hackathon}{}{March 2014}{Open Science Hackathon (invitation only)}{San Francisco, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{NICAR 2014}{}{February 2014}{Investigative Reporters \& Editors Conference}{Baltimore, MD}
+\end{sSubsection}
 
 \begin{sSubsection}{Eyeo Festival}{}{June 2013}{Converge to Inspire}{Minneapolis, MN}
 \end{sSubsection}
@@ -204,10 +221,13 @@ McNamara, A. {\bf Dynamic Documents with R and knitr} (book review). {\em Journa
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Service to Department, Profession and College}
 
-\begin{sSubsection}{Planning member, useR! conference organizing committee}{}{2013-present}{Assisted in planning and executing an international conference with hundreds of participants}{}
+\begin{sSubsection}{Judge, Southern California AP Statistics Poster Competition}{}{2014}{Judged entries to the 2014 Southern California AP Statistics Poster Competition}{}
 \end{sSubsection}
 
-\begin{sSubsection}{Planning member, UCLA Statistics Department DataFest}{}{2012-present}{Assisted in planning and executing the annual DataFest weekend-long event for undergraduates.}{}
+\begin{sSubsection}{Planning Member, useR! Conference Organizing Committee}{}{2013-present}{Assisted in planning and executing an international conference with hundreds of participants}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Planning Member, UCLA Statistics Department DataFest}{}{2012-present}{Assisted in planning and executing the annual DataFest weekend-long event for undergraduates.}{}
 \end{sSubsection}
 
 \begin{sSubsection}{Tour Coordinator, UCLA Graduate Student Orientation Planning Committee}{}{2012-2013}{Organized volunteer tour guides, prepared tour materials and checked routes. As a member of the committee, discussed general issues.}{}
@@ -219,7 +239,7 @@ McNamara, A. {\bf Dynamic Documents with R and knitr} (book review). {\em Journa
 \begin{sSubsection}{Voting Member, Macalester College Honorary Degree Committee}{}{2010}{Assisted in the determination of honorary degree recipients from the college}{}
 \end{sSubsection}
 
-\begin{sSubsection}{Voting member, Macalester College Financial Affairs Commission (FAC)}{}{2009-2010}{The FAC is responsible for maintaining the student government's \$100,000 yearly budget}{}
+\begin{sSubsection}{Voting Member, Macalester College Financial Affairs Commission (FAC)}{}{2009-2010}{The FAC is responsible for maintaining the student government's \$100,000 yearly budget}{}
 \end{sSubsection}
 
 \begin{sSubsection}{Department Liaison, }{Macalester College Math Department}{2008-2009}{Participated in monthly department meetings, provided students' perspectives to faculty}{}
@@ -248,6 +268,7 @@ McNamara, A. {\bf Dynamic Documents with R and knitr} (book review). {\em Journa
 %----------------------------------------------------------------------------------------
 %	Classes
 %----------------------------------------------------------------------------------------
+\clearpage
 \begin{rSection}{Relevant Coursework}
 \begin{tabular}[c]{ lll}
 \multicolumn{3}{l}{\bf Statistical} \rule{0pt}{4ex}\\
