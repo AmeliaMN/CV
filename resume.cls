@@ -132,6 +132,12 @@
 }
 
 
+\newenvironment{pSubsection}[5]{ % 5 input arguments - company name, year(s) employed, job title and description
+ {\bf #1}{#2} \hfill {#3} % Bold company name and date on the right
+ \\ {\em #4}
+ \\ {#5}
+}
+
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
