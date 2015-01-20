@@ -1,8 +1,7 @@
-CV.pdf
-McNamaraCV.pdf
 officialheader.tex
-CV.aux
-CV.log
-CV.synctex.gz
+*.aux
+*.log
+*.synctex.gz
 .DS_Store
 references.tex
+*.pdf
