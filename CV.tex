@@ -16,11 +16,12 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{amssymb}
+\usepackage{url}
 
 %\input{officialheader.tex} %If you want this file to compile to my CV, comment out this line and uncomment the next three
 \name{Amelia A. McNamara} 
-\address{amcnamara@smith.edu \\ www.science.smith.edu/$\sim$amcnamara  \\ @AmeliaMN } 
-\address{215 Burton Hall \\ Smith College \\ Northampton MA, 01063 \\ (413) 585-3851 } 
+\address{\url{amcnamara@smith.edu} \\ \url{www.science.smith.edu/~amcnamara}  \\ @AmeliaMN } 
+\address{211 McConnell Hall \\ Smith College \\ Northampton MA, 01063 \\ (413) 585-3851 } 
 
 
 \pagestyle{fancy}
@@ -29,201 +30,233 @@
 \cfoot{McNamara, page \thepage\ of \pageref{LastPage}}
 \begin{document}
 
+
+\begin{rSection}{Research interests}
+Statistical computing, statistics education, data visualization, reproducible research, spatial statistics
+\end{rSection}
+
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	EDUCATION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-
 {\bf Ph.D., Statistics} \hfill 2015\\ 
 {\bf University of California - Los Angeles} \hfill Los Angeles, CA \\
-% \hfill GPA 3.90 \smallskip \\
-{\bf Dissertation:} Bridging the Gap Between Tools for Learning and for Doing Statistics \\
-\emph{Chancellor's Prize Summer Fellowship, \\ National Science Foundation Graduate Research Fellowship Program Honorable Mention, \\ Collegium of University Teaching Fellows, Dissertation Year Fellowship.}
+{Dissertation: Bridging the Gap Between Tools for Learning and for Doing Statistics} \\
+{Committee: Robert Gould and Fredrick Paik Schoenberg (co-chairs, statistics), Mark Handcock \\(statistics), Todd Millstein (computer science), Alan Kay (computer science).} \smallskip 
 
 {\bf B.A., Mathematics} and {\bf English}  \hfill  2010 \\
-{\bf Macalester College} \hfill St. Paul, MN \\ 
-\emph{Cum laude honors}
-%\hfill GPA 3.63 \smallskip \\
-%{\bf Honors:}  (2010), Dean's List (Fall 2008, Spring 2009, Spring 2010), Alliss Scholarship (2007-2010), Xcel Energy Foundation Scholarship (2009-2010), Konhauser Prize for Mathematical Achievement (2010)
-
-%{\bf University of Cincinnati,} Cincinnati, OH \hfill 2006-2007 \\
-%{\bf College:} Design, Architecture, Art and Planning (DAAP) \\
-%\hfill GPA 3.80 \smallskip \\
-%{\bf Honors:} UC$|$21 Scholar, National Merit Scholar
-
+{\bf Macalester College} \hfill St. Paul, MN\smallskip 
 \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC APPOINTMENTS
+%----------------------------------------------------------------------------------------
 
 
 \begin{rSection}{Academic Appointments}
 {\bf Visiting Assistant Professor} \hfill {2015-2019} \\
 {Smith College Program in Statistical and Data Science}\hfill {Northampton, MA} \\
-\emph{MassMutual Faculty Fellow} \\
-
+\emph{MassMutual Faculty Fellow} 
 \end{rSection}
 
 
 
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards}
+\begin{esSubsection}{Teaching Integrity in Empirical Research Faculty Fellow,}{ Haverford College}{2015-2016}
+{Faculty Fellow}{}
+\end{esSubsection}
+\begin{esSubsection}{Collegium of University Teaching Fellows,}{ University of California, Los Angeles }{2014-2015}{Fellow}{}
+\end{esSubsection}
+\begin{esSubsection}{Dissertation Year Fellowship,}{ University of California, Los Angeles}{2014-2015}{Fellow}{}
+\end{esSubsection}
+\begin{esSubsection}{Graduate Research Fellowship Program,}{ National Science Foundation }{2012}{Honorable Mention}{}
+\end{esSubsection}
+\begin{esSubsection}{Chancellor's Prize Summer Fellowship,}{ University of California, Los Angeles }{2011-2012}{}{}
+\end{esSubsection}
+\begin{esSubsection}{Konhauser Prize for Mathematical Achievement,}{ Macalester College}{ 2010}{}{}
+\end{esSubsection}
+\end{rSection}
+
 
 
 %----------------------------------------------------------------------------------------
-%	Research section
+%	RESEARCH
 %----------------------------------------------------------------------------------------
 
-
-\begin{rSection}{Research}
-
+\begin{rSection}{Research and Consulting}
 \begin{pSubsection}{Smith College, }{Northampton, MA}{2015-present}{Visiting Assistant Professor}
-{At Smith College, my research program is focused on statistics education, statistical computing, data visualization, and spatial statistics. In Spring 2016, I worked with three post-baccalaureate students as part of the MTH 301 independent research seminar. We focused on  Methods to Address the Change of Support and Modifiable Areal Unit Problems.}
+{At Smith College, my research program is focused on statistics education, statistical computing, data visualization, and spatial statistics. In Spring 2016 and Spring 2017, I led groups of undergraduate and post-baccalaureate students as part of the MTH 301 independent research seminar. We focused on Methods to Address the Change of Support and Modifiable Areal Unit Problems.}
 \end{pSubsection}
 
-\begin{pSubsection}{Communications Design Group, }{Los Angeles, CA}{2013-2015}{Graduate Intern}
-{The Communications Design Group (CDG) is a research group with a variety of interests including the future of programming, internet-scale computing, and programming language design. I collaborated with other researchers on projects to improve statistical computing tools for novices (those with no statistics or programming experience). Examples include \textbf{LivelyR} with Aran Lunzer and \textbf{locatr} with Ted Kaehler. Director: Alan Kay.}
+
+\begin{pSubsection}{The Concord Consortium, }{Emeryville, CA}{September 2016-March 2017}{Consultant}
+{Worked with William Finzer and the Common Online Data Analysis Platform (CODAP) on integrating `Data Science Moves' into CODAP.}
 \end{pSubsection}
 
-%----------------------------------------------------------------------------------------
+
+\begin{pSubsection}{Viewpoints Research Institute, }{Los Angeles, CA}{September 2016-January 2017}{Consultant}
+{Continued collaboration with Aran Lunzer to develop interactive essays related to the impacts of data aggregation in 1- and 2-D.}
+\end{pSubsection}
+
+\begin{pSubsection}{Viewpoints Research Institute, }{Los Angeles, CA}{2013-2015}{Graduate Intern}
+{The Viewpoints Research Group is a research group with a variety of interests including the future of programming, internet-scale computing, and programming language design. I collaborated with other researchers on projects to improve statistical computing tools for novices (those with no statistics or programming experience). Examples include \textbf{LivelyR} with Aran Lunzer and \textbf{locatr} with Ted Kaehler. Director: Alan Kay.}
+\end{pSubsection}
 
 \begin{pSubsection}{Mobilize Project, }{Los Angeles, CA}{2011-2014}{Graduate Student Researcher}{The Mobilize project brings data analysis and statistics to life by allowing high school students to collect information about the world around them using mobile phones, then analyze the data and do something with it. As a graduate student researcher, I developed curriculum to be deployed in LAUSD public high schools, including the innovative Introduction to Data Science course. Over hundreds of hours of professional development, I trained teachers on basic statistical concepts, use of inquiry in teaching, and basic statistical software. Principal Investigator: Rob Gould.}
 \end{pSubsection}
-
-%------------------------------------------------
-
-%\begin{pSubsection}{Macalester College, }{St. Paul, MN}{Summers 2009, 2010}{Undergraduate Researcher, XMAC lab}
-%{As an undergraduate researcher, performed numerical analysis of Turing patterns under advisement from Dr. Chad Topaz. Produced a coauthored paper: A. Catll{\'a}, A. McNamara, and C.M. Topaz. Instabilities and patterns in coupled reaction-diffusion layers, Phys. Rev. E 85 (2) (2012) 026215.}
-%\end{pSubsection}
-%
-%%------------------------------------------------
-%
-%\begin{pSubsection}{Institute for Mathematics and its Applications, }{Minneapolis, MN}{Summer 2009}{REU Participant}
-%{Participated in a National Science Foundation Research Experience for Undergraduates (REU), studied a model and optimization for organic photovoltaic cells. Advisors: Fadil Santosa, Tsvetanka Sendova.}
-%\end{pSubsection}
-\end{rSection}
-
-\clearpage
-
-%----------------------------------------------------------------------------------------
-%	Dissertation
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Dissertation}
-{\bf Title:} {\em Bridging the Gap Between Tools for Learning and for Doing Statistics} 
-\\{\bf Committee:} Co-chairs: Rob Gould (Statistics) and Fredrick Paik Schoenberg (Statistics).
-\\ Additional members: Mark Handcock (Statistics), Alan Kay (Computer Science), Todd Millstein (Computer Science).
 \end{rSection}
 
 
 %----------------------------------------------------------------------------------------
-%	Papers
+%	PAPERS
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Publications}
+\begin{rSection}{Peer-reviewed Publications}
 
+{\bf \em{McNamara, A.}}, and Horton, N. J. { \bf Wrangling Categorical Data in R. } 
+\\In Practical Data Science for Stats, {\em PeerJ Preprint} Collection, 5:e3163v2. (2017).  
+\\
+To appear in special issue of {\em The American Statistician.} (accepted)
 
-{\bf \em McNamara, A.} {\bf Considering the gap between learning and doing statistics} {\em International Handbook of Research in Statistics Education.} In chapter 15, The Future of Research in Statistics Education. {(2015).}
+{\bf \em{McNamara, A.}} {\bf Key Attributes of a Modern Statistical Computing Tool. } (submitted)
 
-{\bf \em McNamara, A.} {\bf Community engagement and subgroup meta-knowledge: Some factors in the soul of a community.} { \em Computational Statistics.} (in review).
+%{\bf \em{McNamara, A.}} {\bf On the State of Computing in Statistics Education: Tools for Learning and for Doing. } (submitted)
 
+{\bf \em McNamara, A.} {\bf Considering the Gap between Learning and Doing Statistics.} {\em International Handbook of Research in Statistics Education.} In chapter 15, The Future of Research in Statistics Education. (in revision) 
 
+{\bf \em McNamara, A.} {\bf Community Engagement and Subgroup Meta-Knowledge: Some Factors in the Soul of a Community.} { \em Computational Statistics.} (in press)
 
-
-
-{Catll{\'a}, A.J., {\bf \em McNamara, A.} and Topaz, C. M.} {\bf Instabilities and Patterns in Coupled Reaction-Diffusion Layers.} {\em Physical Review E,} Vol. 85, Issue 2. (2012). 
+{Catll{\'a}, A.J., {\bf \em McNamara, A.} and Topaz, C. M. } {\bf Instabilities and Patterns in Coupled Reaction-Diffusion Layers.} {\em Physical Review E,} Vol. 85, Issue 2. (2012). 
 
 \end{rSection}
 
 
 %----------------------------------------------------------------------------------------
-%	Writing
+%	OTHER WRITING
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Other writing}
-{\bf \em McNamara, A.} {\bf Barriers and opportunities for nurturing statistical thinking before college}{ \em CHANCE,} Vol. 28, Issue 4. (2015).
+
+{\bf \em McNamara, A.}, Horton, Nicholas J., and Baumer, Benjamin S. {\bf Greater Data Science at Baccalaureate Institutions.} Invited comment as part of discussion for David Donoho's 50 Years of Data Science. {\em Journal of Computational and Graphical Statistics.} (in production).
+
+Lunzer, Aran., and {\bf \em McNamara, A.} {\bf Exploring Histograms.} (Interactive essay, \url{http://tinlizzie.org/histograms/}). (2017). 
+
+{\bf \em McNamara, A.} {\bf Barriers and Opportunities for Nurturing Statistical Thinking before College}{ \em CHANCE,} Vol. 28, Issue 4. (2015).
 
 {\bf \em McNamara, A. }and Hansen, M. {\bf Teaching Data Science to Teenagers.}{ \em Proceedings of the 9th International Conference on Teaching Statistics.} (2014). 
 
 {\bf \em McNamara, A. }{\bf Dynamic Documents with R and knitr} (book review). {\em Journal of Statistical Software,}{ Vol. 56, Book Review 2.} (2014).
 \end{rSection}
 
+\clearpage
 %----------------------------------------------------------------------------------------
-%	Teaching
+%	TEACHING
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Teaching}
 
-\begin{rSubsection}{Smith College }{ Program in Statistical and Data Sciences }{Fall 2015-present}{}
-\item SDS/MTH 220: \textbf{Introduction to Statistics and Probability} (lecture and lab)
-\item SDS/MTH 291: \textbf{Multiple Regression}
-\end{rSubsection}
+\begin{reSubsection}{Smith College }{ Program in Statistical and Data Sciences }{}{
+SDS 136: \textbf{Communicating with Data} \hfill Fall 2017 \\
+SDS/MTH 220: \textbf{Introduction to Statistics and Probability} (lecture) \hfill Fall 2015, Spring 2016 \\
+SDS/MTH 220: \textbf{Introduction to Statistics and Probability} (lab) \hfill Fall 2015, Spring 2016 \\
+SDS/MTH 291: \textbf{Multiple Regression} \hfill Spring 2016, Fall 2016\\}
+\end{reSubsection}
 
+\begin{reSubsection}{MassMutual }{ Data Science Development Program }{}{
+Week-long seminar on data visualization\hfill Summer 2016, Summer 2017\\}
+\end{reSubsection}
 
-\begin{rSubsection}{University of California, Los Angeles }{ Statistics Department }{2013-2015}{}
-\item STAT 98T: \textbf{Data Visualization }(Instructor of record, Collegium of University Teaching Fellows)
-%\item Develop syllabus on data visualization
-%\item As instructor of record, teach the general education seminar to a group of 12-15 students
-%\item Perform formative assessment of students
-%\item Grade final papers and intermediate assessments
- \item STAT 101A: \textbf{Introduction to Data Analysis and Regression} (Teaching fellow)
-\item STAT 102B: \textbf{Introduction to Computation and Optimization} (Teaching fellow)
-\item  STAT 101C: \textbf{Introduction to Regression and Data Mining} (Teaching fellow)
-%\item Prepped and led weekly discussion sections for students
-%\item Held twice-weekly office hours
-%\item Assisted students' statistics and R learning
-%\item Graded exams and homework
-\end{rSubsection}
+\begin{reSubsection}{University of California, Los Angeles }{ Statistics Department }{2013-2015}{STAT 98T: \textbf{Data Visualization }(Instructor of record, Collegium of University Teaching Fellows) \\
+STAT 101A: \textbf{Introduction to Data Analysis and Regression} (Teaching fellow) \\
+STAT 102B: \textbf{Introduction to Computation and Optimization} (Teaching fellow) \\
+STAT 101C: \textbf{Introduction to Regression and Data Mining} (Teaching fellow) \\
+}
+\end{reSubsection}
 
-\begin{rSubsection}{Mobilize Project, Los Angeles }{ Professional Development Program }{2011-2014}{}
-\item Professional Development: \textbf{Exploring Computer Science} (Leader)
-%\\  \phantom{blah} Week-long PD (summer 2011)
-%\\ \phantom{blah} Two weekend-long follow-ups (2011-2012 school year)
-%\\ \phantom{blah} Approximately 15 teachers.
-\item  Professional Development: \textbf{Math and Science} (Leader)
-%\\  \phantom{blah} Two week-long PDs (summers 2012 and 2013), 
-%\\ \phantom{blah} Four weekend-long follow-ups (2012-2013 and 2013-2014 school years)
-%\\ \phantom{blah} Approximately 100 teachers total.
-\item Professional Development: \textbf{Introduction to Data Science} (Leader)
-%\\ \phantom{blah} Two week-long PDs (summer 2014)
-%\\ \phantom{blah} Approximately 10 teachers. }
-%\item Developed professional development curriculum
-%\item Worked with pedagogical experts to determine appropriate materials
-%\item Led content-based and pedagogical exercises at professional development sessions
-\end{rSubsection}
-
-
-%\begin{rSubsection}{Macalester College Math Department, }{St. Paul, MN}{2009-2010}{Preceptor
-%\\ \textbf{MATH 135}: Applied Calculus (Instructors: Tom Halverson, Karen Saxe)}
-%\item Held weekly office hours
-%\item Taught students calculus and R skills
-%\item Graded homework and projects
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Hamline University, }{St. Paul, MN}{2008-2010}{MathMasters Tutor}
-%\item Tutored groups of ninth-grade students who were in danger of failing basic standard math exams
-%\item Material covered was algebra and geometry
-%\item Tailored work to individual students
-%\end{rSubsection}
-
-%\begin{rSubsection}{Macalester College Media Services, }{St. Paul, MN}{2007-2010}{Acquisition Specialist}
-%\item Organized interlibrary loans and intralibrary reserve materials
-%\item Set up and ran audio-visual equipment
-%\item Answered phones
-%\item Shelved materials
-%\item Opened and closed department
-%\end{rSubsection}
+\begin{reSubsection}{Mobilize Project }{ Professional Development Program }{2011-2014}{
+ Professional Development: \textbf{Exploring Computer Science} (Leader) \\
+ Professional Development: \textbf{Math and Science} (Leader) \\
+Professional Development: \textbf{Introduction to Data Science} (Leader) \\
+}
+\end{reSubsection}
 \end{rSection}
 
-\clearpage
 
 %----------------------------------------------------------------------------------------
-%	Presentations
+%	SHORT COURSES
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Presentations}
+
+\begin{rSection}{Short courses and workshops led}
+
+\begin{sSubsection}{Intro to R \& RStudio}{}{January 2018}{rstudio::conf}{San Diego, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{Master the Tidyverse}{ (TA for Garrett Grolemund)}{October 2017}{RStudio workshop }{Washington, DC}
+\end{sSubsection}
+
+\begin{sSubsection}{statPREP workshop}{}{June 2017}{St.~Catherine University}{St. Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Science for Statisticians}{}{March 2017}{ENAR, International Biometric Society Meeting}{Washington, DC}
+\end{sSubsection}
+
+\begin{sSubsection}{Introduction to R }{(with C. Jones)}{March 2016}{NICAR, Investigative Reporters \& Editors Conference}{Denver, CO}
+\end{sSubsection}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	INVITED TALKS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Invited talks}
+
+\begin{sSubsection}{Interfacing with Data}{ }{September 2017}{Data Literacy Conference}{Aix-en-Provence, France}
+\end{sSubsection}
+
+\begin{sSubsection}{Key Attributes of a Modern Statistical Computing Tool}{ }{March 2017}{Tableau Software}{Seattle, WA}
+\end{sSubsection}
+
+\begin{sSubsection}{Using Data Visualization to Find Patterns in Multidimensional Data}{ }{March 2017}{St. Olaf College}{Northfield, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Bridging the Gap Between Tools for Learning and for Doing Statistics}{}{November 2016}{University of Minnesota}{Minneapolis, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Bridging the Gap Between Tools for Learning and for Doing Statistics}{ }{March 2016 }{University of Massachusetts - Amherst}{Amherst, MA}
+\end{sSubsection}
+
+\begin{sSubsection}{Statistical Programming-- Past, Present, and Future}{ }{December 2014 }{California State University, Fullerton}{Fullerton, CA}
+\end{sSubsection}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Conference Presentations}
+\begin{sSubsection}{How Spatial Polygons Shape Our World}{ }{April 2017}{OpenVisConf}{Boston, MA}
+\end{sSubsection}
+
+
+
+\begin{sSubsection}{The Incredible Importance of Variability}{ }{November 2016}{THINK Conference}{Bay Area, CA}
+\end{sSubsection}
 
 \begin{sSubsection}{Pushing the Boundary Between Tools for Learning and for Doing Statistics}{ }{August 2016 }{Joint Statistical Meetings}{Chicago, IL}
 \end{sSubsection}
 
 \begin{sSubsection}{Graphics Software: Favorites and Best Practices}{ (roundtable)}{August 2016 }{Joint Statistical Meetings}{Chicago, IL}
 \end{sSubsection}
-
 
 \begin{sSubsection}{The Importance of Parameter Manipulation for Statistics}{ }{July 2016 }{Society for Industrial and Applied Mathematics Annual Meeting}{Boston, MA}
 \end{sSubsection}
@@ -234,26 +267,13 @@
 \begin{sSubsection}{The Gap Between Tools for Learning and for Doing Statistics}{ }{May 2016 }{Electronic Conference on Teaching Statistics}{electronic}
 \end{sSubsection}
 
-
 \begin{sSubsection}{Do you know Nothing when you see it?}{ }{April 2016 }{OpenVisConf}{Boston, MA}
 \end{sSubsection}
 
-\begin{sSubsection}{Bridging the Gap Between Tools for Learning and for Doing Statistics}{ }{March 2016 }{University of Massachusetts - Amherst}{Amherst, MA}
-\end{sSubsection}
-
-\begin{sSubsection}{Introduction to R }{}{March 2016}{NICAR (Investigative Reporters \& Editors Conference)}{Denver, CO}
-\end{sSubsection}
-
-\begin{sSubsection}{Using Data Visualization to Find Patterns in Multidimensional Data}{ }{November 2015}{Western Mass Data Science, Stats, and R Meetup}{Amherst, MA}
+\begin{sSubsection}{Implications for Curriculum}{ (panelist) }{January 2016}{Alliance to Advance Liberal Arts Colleges (AALAC) Big Data Workshop}{Wellesley, MA}
 \end{sSubsection}
 
 \begin{sSubsection}{Using Data Visualization to Find Patterns in Multidimensional Data}{ }{June 2015}{Big Data Day LA}{Los Angeles, CA}
-\end{sSubsection}
-
-\begin{sSubsection}{Statistical Programming-- Past, Present, and Future}{ }{December 2014 }{California State University, Fullerton}{Fullerton, CA}
-\end{sSubsection}
-
-\begin{sSubsection}{Eyeo Highlights}{ }{August 2014 }{Datavis LA Meetup}{Los Angeles, CA}
 \end{sSubsection}
 
 \begin{sSubsection}{Teaching Data Science to Teenagers}{ (invited talk, with M. Hansen)}{July 2014}{International Conference on Teaching Statistics}{Flagstaff, AZ}
@@ -262,10 +282,7 @@
 \begin{sSubsection}{Teaching R to High School Students}{ (with J. Molyneux)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
 \end{sSubsection}
 
-\begin{sSubsection}{LivelyR: Making R Charts Livelier}{ (main author A. Lunzer)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
-\end{sSubsection}
-
-\begin{sSubsection}{heR Panel Discussion}{ (panelist)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
+\begin{sSubsection}{LivelyR: Making R Charts Livelier}{ (with A. Lunzer)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
 \end{sSubsection}
 
 \begin{sSubsection}{Mobilize Project}{ (with J. Margolis and L. Trusela)} {January 2012}{Math Science Partnership Learning Network Conference}{Washington, DC}
@@ -276,7 +293,24 @@
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	Posters
+%	PANELS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Panel Discussions}
+
+\begin{sSubsection}{Data Science at Women's Colleges}{ (panelist)}{October 2017}{Women in Statistics and Data Science Conference}{San Diego, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{heR Panel Discussion}{ (panelist)}{July 2014}{useR! The R User Conference}{Los Angeles, CA}
+\end{sSubsection}
+
+
+\end{rSection}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	POSTERS
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Poster presentations}
 
@@ -292,17 +326,12 @@
 \begin{sSubsection}{Data Visualization on the Soul of the Community}{}{August 2013}{Joint Statistical Meetings}{Montreal, QC}
 \end{sSubsection}
 
-\begin{sSubsection}{Model and Optimization of Organic Photovoltaic Cells}{}{January 2010}{Joint Meeting of AMS and MAA}{San Francisco, CA}
-\end{sSubsection}
 
-\begin{sSubsection}{Model and Optimization of Organic Photovoltaic Cells}{}{November 2009}{Undergraduate Research Symposium, University of Chicago}{Chicago, IL}
-\end{sSubsection}
-
-\begin{sSubsection}{Model and Optimization of Organic Photovoltaic Cells}{}{October 2009}{Macalester College}{St. Paul, MN}
-\end{sSubsection}
-
-\begin{sSubsection}{Model and Optimization of Organic Photovoltaic Cells}{}{July 2009}{Institute for Mathematics and its Applications}{Minneapolis, MN}
-\end{sSubsection}
+{\bf Model and Optimization of Organic Photovoltaic Cells} \hfill \\ 
+Joint Meeting of AMS and MAA, San Francisco, CA \hfill January 2010 \\
+Undergraduate Research Symposium, University of Chicago \hfill November 2009 \\
+Macalester College, St. Paul, MN \hfill  October 2009 \\ 
+Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009 \\
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -311,179 +340,179 @@
 
 \begin{rSection}{Additional Conferences and Workshops Attended}
 
+\begin{sSubsection}{Evidence About Programmers for Programming Language Design}{}{February 2018}{Schloss Dagstuhl}{Wadern, Germany}
+\end{sSubsection}
 
-\begin{sSubsection}{Youth, Learning and Data Science Summit}{}{August 2016}{University of California, Berkeley}{Berkeley, CA}
+\begin{sSubsection}{Teaching Integrity in Empirical Research Workshop}{ }{June 2017}{Haverford College}{Haverford, PA}
+\end{sSubsection}
+
+\begin{sSubsection}{rOpenSci hackathon}{ }{May 2017}{CrossCampus}{Los Angeles, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{Designing for Uncertainty in HCI}{}{May 2017}{CHI Conference}{Denver, CO}
+\end{sSubsection}
+
+\begin{sSubsection}{Moving Transparent Statistics Forward}{}{May 2017}{CHI Conference}{Denver, CO}
+\end{sSubsection}
+
+\begin{sSubsection}{Youth, Learning and Data Science Summit}{ }{August 2016}{University of California, Berkeley}{Berkeley, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{Teaching Integrity in Empirical Research Workshop}{ }{June 2016}{Haverford College}{Haverford, PA}
+\end{sSubsection}
+
+\begin{sSubsection}{rOpenSci hackathon}{ }{March 2014}{ GitHub}{San Francisco, CA}
 \end{sSubsection}
 
 
-\begin{sSubsection}{Young Researcher Writing Workshop}{}{August 2016}{Joint Statistical Meetings}{Chicago, IL}
-\end{sSubsection}
-
-
-\begin{sSubsection}{Communication and Visualization Consortium}{}{June 2016}{Pomona College}{Pomona, CA}
-\end{sSubsection}
-
-\begin{sSubsection}{Teaching Integrity in Empirical Research Faculty Development Workshop}{}{June 2016}{Haverford College}{Haverford, PA}
-\end{sSubsection}
-
-\begin{sSubsection}{Shiny Developers Conference}{}{January 2016}{Stanford University}{Stanford, CA}
-\end{sSubsection}
-
-\begin{sSubsection}{AALAC Big Data Workshop}{}{January 2016}{Wellesley College}{Wellesley, MA}
-\end{sSubsection}
-
-\begin{sSubsection}{Computation + Journalism Symposium}{}{October 2015}{$4^{th}$ Symposium on Computation + Journalism}{New York, NY}
-\end{sSubsection}
-
-\begin{sSubsection}{Computation + Journalism Symposium}{}{October 2014}{$3^{rd}$ Symposium on Computation + Journalism}{New York, NY}
-\end{sSubsection}
-
-\begin{sSubsection}{Eyeo Festival}{}{June 2014}{Converge to Inspire}{Minneapolis, MN}
-\end{sSubsection}
-
-\begin{sSubsection}{rOpenSci hackathon}{}{March 2014}{Open Science Hackathon (invitation only)}{San Francisco, CA}
-\end{sSubsection}
-
-\begin{sSubsection}{NICAR 2014}{}{February 2014}{Investigative Reporters \& Editors Conference}{Baltimore, MD}
-\end{sSubsection}
-
-\begin{sSubsection}{Eyeo Festival}{}{June 2013}{Converge to Inspire}{Minneapolis, MN}
-\end{sSubsection}
-
-\begin{sSubsection}{Computation + Journalism Symposium}{}{January 2013}{$2^{nd}$ Symposium on Computation + Journalism}{Atlanta, GA}
-\end{sSubsection}
-
-\begin{sSubsection}{Math Science Partnership Learning Network Conference}{}{January 2013}{Implementation: From Vision to Impact}{Washington, DC}
-\end{sSubsection}
-
-\begin{sSubsection}{Interface Symposium: Future of Statistical Computing}{}{May 2012}{Internet Scale Data, Flexible Modeling, and Visualization}{Houston, TX}
-\end{sSubsection}
-
-\begin{sSubsection}{Math Science Partnership Learning Network Conference}{}{January 2012}{Framing Effective Teaching in STEM}{Washington, DC}
-\end{sSubsection}
-
-\begin{sSubsection}{Workshop at the Statistical and Applied Mathematical Sciences Institute}{}{October 2009}{ Space-Time Analysis for Environmental Mapping, Epidemiology and Climate Change}{Durham, NC}
-\end{sSubsection}
-
-\begin{sSubsection}{Workshop at the University of California, Berkeley}{}{Summer 2009}{Explorations in Statistics Research}{Berkeley, CA}
-\end{sSubsection}
 \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Local contributions
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Local contributions}
+
+\begin{sSubsection}{Algorithmic Accountability}{}{}{Otelia Cromwell Day workshop, Smith College}{November 2017}
+\end{sSubsection}
+
+\begin{sSubsection}{Big Data, Polling, and the Politics of Education}{}{}{Guest lecture in AMS 100: Thinking Through the 2016 Election}{March 2017}
+\end{sSubsection}
+
+\begin{sSubsection}{What's Missing? Identifying the Gaps, Biases, and Omissions in Digital Data}{}{}{Guest lecture in IDP 160: Digital Effects, Smith College}{October 2016}
+\end{sSubsection}
+
+\begin{sSubsection}{Futurisms, part II: Intersections: Digital Humanities, Interactive Media and Cultural Heritage}{ (faculty fellow)}{}{Smith College Kahn Institute}{February 2016}
+\end{sSubsection}
+\begin{sSubsection}{Futurisms, part I: The Ten Thousand Year Collection}{ (faculty fellow)}{}{Smith College Kahn Institute}{December 2015}
+\end{sSubsection}
+
+\begin{sSubsection}{Using Data Visualization to Find Patterns in Multidimensional Data}{}{}{Guest lecture in CS 342: Statistical Learning, Hampshire College}{November 2015}
+\end{sSubsection}
+
+\begin{sSubsection}{Using Data Visualization to Find Patterns in Multidimensional Data}{ }{}{Western Mass Data Science, Stats, and R Meetup, Amherst, MA}{November 2015}
+\end{sSubsection}
+
+
+
+\begin{sSubsection}{Eyeo Highlights}{ }{}{Datavis LA Meetup, Los Angeles, CA}{August 2014}
+\end{sSubsection}
+
+\end{rSection}
+
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	Service
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Service to Department}
-\begin{rSubsection}{Smith College Statistical and Data Sciences Program Committee}{}{2015-present}{Faculty member}
-\item Participate in departmental planning activities, including the approval of new courses and planning of a proposed data science major. 
-\end{rSubsection}
-
-\begin{rSubsection}{Five College DataFest}{}{2015-present}{Co-organizer}
-\item Planning the 2015 Five College DataFest for undergraduates
-\item The Five Colleges include Smith College, Mount Holyoke College, Amherst College, Hampshire College, and the University of Massachusetts Amherst. 
-\end{rSubsection}
-
-\begin{rSubsection}{UCLA Statistics Department DataFest}{}{2012-2015}{Planning Member}
-\item Assisted in planning and executing the 2012, 2013, and 2014 UCLA DataFests for undergraduates
-\item Each year, 100-200 undergraduate students attend the event. Students come from UCLA, the University of Southern California, Pomona College, California Polytechnic State University San Luis Obispo, and the University of California, Riverside. 
-\item During the weekend-long data hackathon, volunteered 10+ hours as a graduate student consultant
-\end{rSubsection}
-\end{rSection}
-
-\clearpage
-
-\begin{rSection}{Service to College}
-
-\begin{rSubsection}{UCLA Graduate Student Orientation Planning Committee}{}{2012-2013}{Tour Coordinator}
-\item Helped plan and execute the 2012 and 2013 UCLA grad student orientations, attended by 1,000+ incoming graduate students each year
-\item Discussed general orientation issues, such as panel topics and logistical concerns
-\item Organized and trained 15 volunteer tour guides to lead tours campus
-\item Prepared tour materials  and checked routes for North Campus, South Campus, and General tours
-\item On the day of orientation, coordinated hourly tours and assigned tour guides to routes
-\end{rSubsection}
-
-\begin{rSubsection}{Macalester College Admissions Department}{}{2013-present}{Interviewer and representative}
-\item Performed alumni interviews of Southern California prospective students applying to Macalester
-\item Represented Macalester at Vistamar College Fair, answering questions about Macalester and the admissions process
-\end{rSubsection}
-
-\begin{rSubsection}{UC Day in DC}{}{May 2013}{University of California, Los Angeles Delegate}
-\item Attended the University of California's annual federal advocacy day in Washington, DC
-\item Represented UCLA and graduate student interests  by meeting with congress members and their staff members to discuss Federal funding for programs that impact grad students
-\end{rSubsection}
-
-\begin{rSubsection}{UCLA Graduate Resource Center Oversight Committee}{}{2011-2012}{Voting Member}
-\item Assisted in developing new strategic plan for UCLA's graduate resource center
-\end{rSubsection}
-
-\end{rSection}
-
-\begin{rSection}{Service to Profession}
-
-\begin{rSubsection}{Chicago Joint Statistical Meetings}{}{2016}{Session Chair}
+\begin{rSection}{Service to Department, Profession, and College}
+\begin{rSubsection}{Joint Statistical Meetings}{ Chicago, IL}{2016}{Session Chair}
 \item Toward Better Communication of Information with Statistical Graphics -- Contributed Papers
 \item Reproducibility in Statistics and Data Science -- Invited Papers (substitute chair)
 \end{rSubsection}
 
 
-
-\begin{rSubsection}{Los Angeles useR! Conference Organizing Committee}{}{2013-2014}{Planning Member}
-\item Assisted in planning and executing the 2014 international R user conference (700 attendees)
-\item Recruited and coordinated 80 student volunteers
-\item Assisted with conference website before, during, and after the conference
-\item Promoted conference on social media, encouraged minority participation
-\item Supervised on-the-ground conference logistics, including registration, catering, and facilities services
+\begin{rSubsection}{Smith College Statistical and Data Sciences Program Committee}{}{2015-present}{Faculty member}
+\item Assisted in developing the major in Statistical and Data Sciences (approved April 2016).
+\item Voted on departmental policy about honors theses, special studies, course waivers, and the like. 
+\item Organized invited talk by Amanda Cox (long time member of the graphics team at The New York Times, now editor of The Upshot), attended by almost 200 people from the college and community. 
+\item Organizing invited talk by Christine Zhang '09 (alumna and recipient of 2016 Mozilla Open News Fellowship, currently working for the LA Times). 
+\item Managing Twitter presence @SmithCollegeSDS. 
 \end{rSubsection}
 
+\begin{rSubsection}{Five College DataFest}{}{2015-present}{Co-organizer with Ben Baumer. }
+\item Planned and executed a weekend-long data hackathon event for more than 100 undergraduate students from Smith, Mt Holyoke, Hampshire, Amherst, and UMass Amherst. 
+\item Managed social media, including Wordpress website and Twitter presence @FiveCollegeStat. 
+\item Recruited data science experts to serve as VIP visitors and judges. 
+\item Solicited donations from corporations like Google and RStudio. 
+\item Coordinated prizes and swag for students. 
+\end{rSubsection}
+\clearpage
+\begin{rSubsection}{University of California, Los Angeles DataFest}{}{2012-2015}{Planning Member}
+\item As a graduate student, assisted in planning and executing the 2012, 2013, and 2014 UCLA DataFests for undergraduates, attended by 100-200 undergraduate students from UCLA, the University of Southern California, Pomona College, California Polytechnic State University San Luis Obispo, and the University of California, Riverside. 
+\item Managed Twitter presence @UCLADataFest. 
+\item Served as on-the-ground-advisor for students at the event, discussing ideas and coding issues. 
+\item Assisted in coordinating donations and swag from corporations like GitHub, Google, Revolution Analytics, and RStudio. 
+\end{rSubsection}
 
+\begin{rSubsection}{Los Angeles useR! Conference Organizing Committee}{}{2013-2014}{Planning Member}
+\item Assisted in planning and executing the 2014 international R user conference (700 attendees).
+\item Recruited and coordinated 80 student volunteers.
+\item Assisted with conference website before, during, and after the conference.
+\item Promoted conference on social media, encouraged minority participation.
+\item Supervised on-the-ground conference logistics, including registration, catering, and facilities services. 
+\end{rSubsection}
+
+\begin{rSubsection}{UCLA Graduate Student Orientation Planning Committee}{}{2012-2013}{Tour Coordinator}
+\item Helped plan and execute the 2012 and 2013 UCLA grad student orientations, attended by 1,000+ incoming graduate students each year. 
+\item Discussed general orientation issues, such as panel topics and logistical concerns.
+\item Organized and trained 15 volunteer tour guides to lead tours campus.
+\item Prepared tour materials and checked routes for North Campus, South Campus, and General tours.
+\item On the day of orientation, coordinated hourly tours and assigned tour guides to routes.
+\end{rSubsection}
+
+\begin{rSubsection}{Macalester College Admissions}{}{2013-present}{Volunteer interviewer and college representative}
+\item Performed alumni interviews of prospective students applying to Macalester in Southern California and Western Massachusetts 
+\item Represented Macalester at the 2015 Vistamar College Fair, answering questions about Macalester and the admissions process
+\end{rSubsection}
 
 \begin{rSubsection}{Southern California AP Statistics Poster Competition}{}{2014}{Judge}
 \item Judged entries to the 2014 Southern California AP Statistics Poster Competition
 \end{rSubsection}
 
+\begin{rSubsection}{UC Day in DC}{}{May 2013}{University of California, Los Angeles Delegate}
+\item Represented UCLA and graduate student interests at the University of California's annual federal advocacy day in Washington, DC. 
+\item Met with congress members and their staff to discuss Federal funding for programs impacting grad students. 
+\end{rSubsection}
+
+\begin{rSubsection}{UCLA Graduate Resource Center Oversight Committee}{}{2011-2012}{Voting Member}
+\item Assisted in developing a new strategic plan for UCLA's graduate resource center
+\end{rSubsection}
 
 
-{\em \bf Ad-hoc referee }\hfill {2014-present} \\
-The American Statistician, Journal of Statistical Software, \\ Statistics Education Research Journal, Technology Innovations in Statistics Education.
+\begin{rSubsection}{Ad-hoc referee}{}{2014-present}{Journals:}
+\item Journal of Statistics Education (JSE)
+\item Journal of Statistical Software (JSS)
+\item Statistics Education Research Journal (SERJ)
+\item Technology Innovations in Statistics Education (TISE)
+\item The American Statistician (TAS)
+ \\Conferences: 
+\item Conference on Human Factors in Computing Systems (CHI)
+\end{rSubsection}
 
-
-%\begin{rSubsection}{Macalester College Honorary Degree Committee}{}{2010}{Voting Member}
-%\item Assisted in the determination of honorary degree recipients from the college
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Macalester College Financial Affairs Commission (FAC)}{}{2009-2010}{Voting Member}
-%\item As a member of the FAC, assessed student groups' requests for funding and helped maintained the student government's \$100,000 yearly budget
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Macalester College Math Department}{}{2008-2009}{Department Liaison}
-%\item Participated in monthly department meetings and provided students' perspectives to the faculty
-%\end{rSubsection}
 \end{rSection}
 
-\clearpage
-
 %----------------------------------------------------------------------------------------
-%	Skills section
+%	SKILLS
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Language & Conversational in Spanish \\
-Design & Adobe suite (Illustrator, InDesign, etc.), %Cinema 4D, SketchUp, 
-HTML and CSS \\
-Office & Microsoft Office suite, copy editing, proofreading %Able to type 60+ words per minute
- \\
-Technical Software & R, Python, LaTeX, JavaScript, Matlab, Mathematica, Comsol, ArcGIS  \\
-& Many projects hosted on GitHub, \textbf{https://github.com/AmeliaMN} \\
-Social Media & Twitter: \textbf{@AmeliaMN}, 4,600 tweets, 2,000 followers \\
- & Blog: contributor and member of leadership team, \textbf{www.datascience.la} \\
- & Blog: maintainer, \textbf{www.science.smith.edu/$\sim$amcnamara/blog}
+Languages & Expert: R, \LaTeX, HTML, Markdown \\
+ & Intermediate: Spanish, Python, git, JavaScript, Matlab, Mathematica, ArcGIS \\
+
+Social Media & Twitter: \textbf{@AmeliaMN}, 6,400+ tweets, 4,400+ followers \\
+& Currently managing \textbf{@SmithCollegeSDS}, \textbf{@FiveCollegeStat} \\
+& Formerly managed \textbf{@UCLADataFest}, \textbf{@user2014\_UCLA}  \\
+%& Blog: contributor and member of leadership team, \url{www.datascience.la} \\
+% & Blog: maintainer, \url{www.science.smith.edu/~amcnamara/blog} \\
+
 \end{tabular}
+
+%Open source contributions: \\
+%Tidy labs for Introduction to Statistical Learning: \url{https://github.com/SmithCollege-SDS/tidy-islr} \\ 
+%Labs accompanying OpenIntro Introduction to Statistics with Randomization and Simulation \url{https://github.com/beanumber/oiLabs-mosaic} \\ 
+%R packages: 
+%Many more projects hosted on GitHub, \url{https://github.com/AmeliaMN} \\
+%Additional projects contributed to: 
 \end{rSection}
 
 
 %----------------------------------------------------------------------------------------
-%	Memberships
+%	MEMBERSHIPS
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Memberships in Professional Societies}
@@ -511,105 +540,7 @@ Social Media & Twitter: \textbf{@AmeliaMN}, 4,600 tweets, 2,000 followers \\
 %	References
 %----------------------------------------------------------------------------------------
 
-%\input{references.tex} %Comment out to get this to compile
-
-%----------------------------------------------------------------------------------------
-%	Classes
-%----------------------------------------------------------------------------------------
-%\begin{rSection}{Relevant Coursework}
-%\begin{rSubsection}{Statistical}{}{2010-2012}{All courses completed at UCLA}
-%\item Applied Probability, Research Design, Sampling, and Analysis
-%\item Regression Analysis: Model Building, Fitting, and Criticism
-%\item Matrix Algebra and Optimization
-%\item Theoretical Statistics
-%\item Large Sample Theory
-%\item Advanced Modeling and Inference
-%\item Monte Carlo Methods for Optimization
-%\item Data and the Media Arts
-%\item Spatial Statistics, Data
-%\item Data Practices, and Data Curation.
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Mathematical}{}{2007-2010}{All courses completed at Macalester College}
-%\item Linear Algebra 
-%\item Discrete Mathematics 
-%\item Multivariable Calculus 
-%\item Differential Equations 
-%\item Algebraic Structures 
-%\item Continuous Applied Mathematics 
-%\item Real Analysis 
-%\item Topics in Modern Algebra 
-%\item Complex Analysis
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Geographical}{}{2007-2010}{All courses completed at Macalester College}
-%\item Urban Geography
-%\item Introduction to Geographic Information Systems 
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Computational}{}{2012-2013}{Courses completed at UCLA and on Coursera}
-%\item Statistics Programming 
-%\item Computing for Data Analysis 
-%\item Programming Media 
-%\item Computer Programming Languages and Systems 
-%\item Human/Computer Interaction
-%\end{rSubsection}
-%
-%\begin{rSubsection}{Educational}{}{2010-present}{All courses completed at UCLA}
-%\item Teaching College Statistics 
-%\item High School Reform 
-%\item Collegium of University Teaching Fellows Seminar 
-%\end{rSubsection}
-%
-%\end{rSection}
-
-
-%\begin{rSection}{Relevant Coursework}
-%\begin{tabular}[c]{ lll}
-%\multicolumn{3}{l}{\bf Statistical} \rule{0pt}{4ex}\\
-%\hline
-%Applied Probability & UCLA & Fall 2010  \\
-%Research Design, Sampling, and Analysis & UCLA & Fall 2010  \\
-%Regression Analysis: Model Building, Fitting, and Criticism & UCLA & Winter 2011  \\
-%Matrix Algebra and Optimization & UCLA & Winter 2011 \\
-%Theoretical Statistics & UCLA & Winter 2011 \\
-%Large Sample Theory & UCLA & Spring 2011  \\
-%Advanced Modeling and Inference & UCLA & Spring 2011  \\
-%Monte Carlo Methods for Optimization & UCLA & Spring 2011  \\
-%Data and the Media Arts & UCLA & Spring 2011  \\
-%Spatial Statistics & UCLA & Fall 2011  \\
-%Data, Data Practices, and Data Curation I & UCLA & Winter 2012  \\
-%Data, Data Practices, and Data Curation II & UCLA & Spring 2012  \\
-%\multicolumn{3}{l}{\bf Mathematical} \rule{0pt}{4ex} \\
-%\hline
-%Linear Algebra & Macalester College & Fall 2007   \\
-%Discrete Mathematics & Macalester College & Spring 2008  \\
-%Multivariable Calculus & Macalester College & Spring 2008  \\
-%Differential Equations & Macalester College & Fall 2008 \\
-%Algebraic Structures & Macalester College & Spring 2009  \\
-%Continuous Applied Mathematics & Macalester College & Spring 2009  \\
-%Real Analysis & Macalester College & Fall 2009  \\
-%Topics in Modern Algebra & Macalester College & Fall 2009  \\
-%Complex Analysis & Macalester College & Spring 2010  \\
-%\multicolumn{3}{l}{\bf Geographical} \rule{0pt}{4ex}\\
-%\hline
-%Urban Geography & Macalester College & Fall 2008  \\
-%Introduction to Geographic Information Systems & Macalester College & Fall 2009 \\
-%\multicolumn{3}{l}{\bf Computational} \rule{0pt}{4ex}\\
-%\hline
-%Statistics Programming & UCLA & Fall 2010  \\
-%Computing for Data Analysis & Coursera & Fall 2012 \\
-%Programming Media & UCLA & Fall 2012 \\
-%Computer Programming Languages and Systems & UCLA & Winter 2013 \\
-%Human/Computer Interaction & UCLA & Winter 2013 \\
-%\multicolumn{3}{l}{\bf Educational} \rule{0pt}{4ex}\\
-%\hline
-%Teaching College Statistics & UCLA & Fall 2010 \\
-%High School Reform & UCLA & Fall 2011 \\
-%High School Reform & UCLA & Winter 2012 \\
-%Collegium of University Teaching Fellows Seminar & UCLA & Fall 2014
-%\end{tabular}
-%\end{rSection}
+\input{references.tex} %Comment out to get this to compile
 
 
 

@@ -116,6 +116,13 @@
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
+\newenvironment{reSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
+ {\bf #1}{#2} \hfill {#3} % Bold company name and date on the right
+ \\ {#4}
+ { % If the third argument is not specified, don't print the job title and location line
+  }
+}
+
 
 
 %----------------------------------------------------------------------------------------
