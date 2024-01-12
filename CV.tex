@@ -15,8 +15,8 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-\usepackage{amssymb}
-\usepackage{url}
+\usepackage{amsfonts}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
 
 %\input{officialheader.tex} %If you want this file to compile to my CV, comment out this line and uncomment the next three
 \name{Amelia A. McNamara} 
@@ -27,12 +27,12 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\cfoot{McNamara, page \thepage\ of \pageref{LastPage}}
+\cfoot{McNamara CV, page \thepage\ of \pageref{LastPage}}
 \begin{document}
 
 
 \begin{rSection}{Research interests}
-Statistical computing, statistics education, data visualization, reproducible research, spatial statistics
+Statistical computing, statistics education, data science education, data visualization, reproducible research, spatial statistics. 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -55,7 +55,8 @@ Statistical computing, statistics education, data visualization, reproducible re
 
 
 \begin{rSection}{Academic Appointments}
-{\bf Assistant Professor} \hfill {2018-present} \\
+{\bf Associate Professor} \hfill {2023-present} \\
+{\bf Assistant Professor} \hfill {2018-2023} \\
 {University of St Thomas Department of Computer \& Information Sciences}\hfill {St Paul, MN} 
 
 {\bf Visiting Assistant Professor} \hfill {2015-2018} \\
@@ -63,6 +64,17 @@ Statistical computing, statistics education, data visualization, reproducible re
 \emph{MassMutual Faculty Fellow} 
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications}
+\begin{reSubsection}{RStudio Certified Trainer}{ RStudio}{September 2019}
+{}{Tidyverse instructor certified.}
+\end{reSubsection}
+\begin{reSubsection}{Carpentries Certified Instructor}{ The Carpentries}{September 2019}
+{}{Certified to teach Software Carpentry, Library Carpentry, and Data Carpentry.}
+\end{reSubsection}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	PAPERS
@@ -70,18 +82,29 @@ Statistical computing, statistics education, data visualization, reproducible re
 
 \begin{rSection}{Peer-reviewed Publications}
 
-{\bf \em{McNamara, A.}} {\bf Key Attributes of a Modern Statistical Computing Tool. } {\em The American Statistician.} (accepted, to appear August 2019) 
+{\bf \em McNamara, A.} (2023). {\bf The impact (or lack thereof) of analysis choice on conclusions with Likert data from the Many Analysts Religion Project.} {\em Religion, Brain \& Behavior,} 13(3), 324-326. \href{https://doi.org/10.1080/2153599X.2022.2070256}{DOI:10.1080/2153599X.2022.2070256}
 
-Rafalski, T., Uesback, P. M., Panks-Meloney, C., Daleiden, P., Allee, W., {\bf \em McNamara, A.} and Stefik, A. {\bf A Randomized Controlled Trial on the Wild Wild West of Scientific Computing with Student Learners.} {\em ICER'19 Proceedings} (accepted, to appear August 2019). 
+Hoogeveen, S., Sarafoglou, A., van Elk, M., Wagenmakers, E-J., [249 additional coauthors, including {\bf \em{McNamara, A.}}]. (2023). {\bf A Many-Analysts Approach to the Relation Between Religiosity and Well-being.} {\em Religion, Brain \& Behavior,} 13(3), 237-283. \href{https://doi.org/10.1080/2153599X.2022.2070255}{DOI:10.1080/2153599X.2022.2070255}
 
-{\bf \em McNamara, A.} {\bf Community Engagement and Subgroup Meta-Knowledge: Some Factors in the Soul of a Community.} { \em Computational Statistics.} (accepted, to appear)
+Abdel-Ghani, A. \footnote{Student coauthor}, Bodwin, K., {\bf \em McNamara, A.}, Theobold, A., and Flores Siaca, I (2022). {\bf "Looks okay to me": A study of best practice in data analysis code review.} {\em International Conference on Teaching Statistics (ICOTS-11)}. \href{https://doi.org/10.52041/iase.icots11.T8I1}{DOI:10.52041/iase.icots11.T8I1}
 
-Gould, R., Wild, C.~J., Baglin, J., {\bf \em McNamara, A.}, Ridgway, J., McConway, K, ``Revolutions in Teaching and Learning Statistics: A Collection of Reflections'' in {\em Springer International Handbook of Research in Statistics Education} (Ben-Zvi, D., Makar, K., eds), Springer International Handbook of Education series. (2018). 
+\c{C}etinkaya-Rundel, M., Hardin, J., Baumer, B., {\bf \em McNamara, A.}, Horton, N., and Rundel, C. (2022). {\bf An educator's perspective of the tidyverse.} {\em Technology Innovations in Statistics Education.} 14(1). \href{https://doi.org/10.5070/T514154352}{DOI:10.5070/T514154352}
 
-{\bf \em{McNamara, A.}}, and Horton, N.~J. { \bf Wrangling Categorical Data in R. } 
-\\Special issue, jointly published in Practical Data Science for Stats, {\em PeerJ Preprint} Collection, 5:e3163v2 (2017) and {\em The American Statistician.} Vol. 72, Issue 1. (2017). 
+Schweinberg, M., Feldman, M., Staub, N., [175 additional coauthors, including {\bf \em{McNamara, A.}}], Uhlman, E. L. (2021). {\bf Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize and test the same hypothesis}. {\em Organizational Behavior and Human Decision Processes.} 165, 228-249. \href{https://doi.org/10.1016/j.obhdp.2021.02.003}{DOI:10.1016/J.OBHDP.2021.02.003}
 
-{Catll{\'a}, A.J., {\bf \em McNamara, A.} and Topaz, C. M. } {\bf Instabilities and Patterns in Coupled Reaction-Diffusion Layers.} {\em Physical Review E,} Vol. 85, Issue 2. (2012). 
+{\bf \em{McNamara, A.}} (2019). {\bf Key Attributes of a Modern Statistical Computing Tool.} {\em The American Statistician.} (73)4, 375-385. \href{https://doi.org/10.1080/00031305.2018.1482784}{DOI:10.1080/00031305.2018.1482784}
+
+{\bf \em McNamara, A.} (2019). {\bf Community Engagement and Subgroup Meta-Knowledge: Some Factors in the Soul of a Community.} { \em Computational Statistics.} 34(4), 1511-1535. 
+\\\href{https://doi.org/10.1007/S00180-019-00879-X}{DOI:10.1007/S00180-019-00879-X}
+
+Rafalski, T., Uesback, P. M., Panks-Meloney, C., Daleiden, P., Allee, W., {\bf \em McNamara, A.} and Stefik, A. (2019). {\bf A Randomized Controlled Trial on the Wild Wild West of Scientific Computing with Student Learners.} In {\em Proceedings of the 2019 ACM Conference on International Computing Education Research} (pp. 239-247). \href{https://doi.org/10.1145/3291279.3339421}{DOI:10.1145/3291279.3339421}
+
+Gould, R., Wild, C.~J., Baglin, J., {\bf \em McNamara, A.}, Ridgway, J., McConway, K. (2018). ``\textbf{Revolutions in Teaching and Learning Statistics: A Collection of Reflections}'' in {\em Springer International Handbook of Research in Statistics Education} (Ben-Zvi, D., Makar, K., eds), Springer International Handbook of Education series, 457-472. \href{https://doi.org/10.1007/978-3-319-66195-7_15}{DOI:10.1007/978-3-319-66195-7\_15}
+
+{\bf \em{McNamara, A.}}, and Horton, N.~J. (2018). { \bf Wrangling Categorical Data in R. } 
+\\Special issue, jointly published in Practical Data Science for Stats, {\em PeerJ Preprint} Collection, 5:e3163v2 and {\em The American Statistician.} 72(1), 97-104. \href{https://doi.org/10.1080/00031305.2017.1356375}{DOI:10.1080/00031305.2017.1356375}
+
+Catll{\'a}, A.J., {\bf \em McNamara, A.} and Topaz, C. M. (2012). {\bf Instabilities and Patterns in Coupled Reaction-Diffusion Layers.} {\em Physical Review E,} 85(2), 026215. \href{https://doi.org/10.1103/PhysRevE.85.026215}{DOI:10.1103/PhysRevE.85.026215}
 
 \end{rSection}
 
@@ -89,21 +112,32 @@ Gould, R., Wild, C.~J., Baglin, J., {\bf \em McNamara, A.}, Ridgway, J., McConwa
 %----------------------------------------------------------------------------------------
 %	OTHER WRITING
 %----------------------------------------------------------------------------------------
-\clearpage
+
 \begin{rSection}{Other writing}
 
-{\bf \em McNamara, A.} {\bf Teaching Statistics, A Bag of Tricks} (book review). {\em The American Statistician,} Vol. 72, No. 2. (2018). 
+{\bf \em McNamara, A.} (2023). {\bf Data Feminism} (book review). {\em Design and Culture}, 15(3).  
+\\\href{https://doi.org/10.1080/17547075.2022.2038975}{DOI:10.1080/17547075.2022.2038975}
 
- 
-Lunzer, A., and {\bf \em McNamara, A.} {\bf Exploring Histograms:} Interactive essay. Available online at \url{http://tinlizzie.org/histograms/} (2017).
+Wacharamanotham, C., Jansen, Y., {\bf \em McNamara, A.}, Hornb\ae\,k, K., Robertson, J., and Goswami, L. (2022). {\bf Transparent Quantitative Research as a User Interface Problem.} Report from Dagstuhl Seminar 22392. \href{https://doi.org/10.4230/DagRep.12.9.220}{DOI:10.4230/DagRep.12.9.220}
 
-{\bf \em McNamara, A.}, Horton, N.~J., and Baumer, B.~S. {\bf Greater Data Science at Baccalaureate Institutions.} Invited comment as part of discussion for David Donoho's 50 Years of Data Science. {\em Journal of Computational and Graphical Statistics.} Vol. 26, No. 4, 781-783 (2017). 
+Neuzil, M., and {\bf \em McNamara, A.} (2022). {\bf Teaching to the image: Helping student journalists visualize environmental stories in a climate change world.} {\em Journalism Education,} 11(1). \\ \url{https://journalism-education.org/2022/10/teaching-to-the-image-helping-student-journalists-visualize-environmental-stories-in-a-climate-change-world/}
 
-{\bf \em McNamara, A.} {\bf Barriers and Opportunities for Nurturing Statistical Thinking before College}{ \em CHANCE,} Vol. 28, Issue 4. (2015).
+{\bf \em McNamara, A.} (24 March, 2021). {\bf Data visualisation by hand: drawing data for your next story} (blog post, DataJournalism.com). 
+\\ \url{https://datajournalism.com/read/longreads/data-visualisation-by-hand} 
 
-{\bf \em McNamara, A. }and Hansen, M. {\bf Teaching Data Science to Teenagers.}{ \em Proceedings of the 9th International Conference on Teaching Statistics.} (2014). 
+{\bf \em McNamara, A.} (28 July, 2019). {\bf Counting commits and peer code review} (blog post, Teach Data Science). \url{https://teachdatascience.com/countingcommits/} 
 
-{\bf \em McNamara, A. }{\bf Dynamic Documents with R and knitr} (book review). {\em Journal of Statistical Software,}{ Vol. 56, Book Review 2.} (2014).
+{\bf \em McNamara, A.} (2018). {\bf Teaching Statistics, A Bag of Tricks} (book review). {\em The American Statistician,} 72(2), 206-212. \href{https://doi.org/10.1080/00031305.2018.1469927}{DOI:10.1080/00031305.2018.1469927}
+
+Lunzer, A., and {\bf \em McNamara, A.} (2017). {\bf Exploring Histograms:} Interactive essay. Available online at \url{https://tinlizzie.org/histograms/} 
+
+{\bf \em McNamara, A.}, Horton, N.~J., and Baumer, B.~S. (2017). {\bf Greater Data Science at Baccalaureate Institutions.} Invited comment as part of discussion for David Donoho's 50 Years of Data Science. {\em Journal of Computational and Graphical Statistics.} 26(4), 781-783. \href{https://doi.org/10.1080/10618600.2017.1386568}{DOI:10.1080/10618600.2017.1386568}
+
+{\bf \em McNamara, A.} (2015). {\bf Barriers and Opportunities for Nurturing Statistical Thinking before College}{ \em CHANCE.} 28(4), 34-42. \href{https://doi.org/10.1080/09332480.2015.1120126}{DOI:10.1080/09332480.2015.1120126}
+
+{\bf \em McNamara, A. }and Hansen, M. (2014). {\bf Teaching Data Science to Teenagers.} In {\em Proceedings of the 9th International Conference on Teaching Statistics.} 
+
+{\bf \em McNamara, A. } (2014). {\bf Dynamic Documents with R and knitr} (book review). {\em Journal of Statistical Software.} Vol. 56, Book Review 2. \href{https://doi.org/10.18637/JSS.V056.B02}{DOI:10.18637/JSS.V056.B02}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -112,11 +146,17 @@ Lunzer, A., and {\bf \em McNamara, A.} {\bf Exploring Histograms:} Interactive e
 
 \begin{rSection}{In progress}
 
-{\bf \em{McNamara, A.}} {\bf On the State of Computing in Statistics Education: Tools for Learning and for Doing. } 
+{\bf \em McNamara, A.} {\bf Teaching modeling in introductory statistics: A comparison of formula and tidyverse syntaxes.} (Under review, pre-print available: \href{https://arxiv.org/abs/2201.12960}{arxiv:2201.12960})
 
-{\bf \em{McNamara, A.}}, student coauthors to be determined. {\bf Interactive methods to address the change of support problem. } 
+Trinh, T. \footnotemark[1], Hardt, R., and {\bf \em McNamara, A.} (2022) {\bf Analyzing Software Repository Usage for Individual Assignments.} (Submitted)
 
-Molyneux, J., and {\bf \em McNamara, A.} {\bf mobilizr: An R package for high school data scientists.}
+{\bf \em{McNamara, A.}} {\bf On the State of Computing in Statistics Education: Tools for Learning and for Doing. } (Pre-print available: \href{https://arxiv.org/abs/1610.00984}{arxiv:1610.00984})
+
+% {\bf \em{McNamara, A.}}, student coauthors to be determined. {\bf The polygon overlay problem in the Flint water crisis } 
+
+% Molyneux, J., and {\bf \em McNamara, A.} {\bf mobilizr: An R package for high school data scientists.}
+% 
+% Waring, E., Quinn, M., {\bf \em{McNamara, A.}}, et al. {\bf skimr: Compact and flexible summaries of data}
 
 \end{rSection}
 
@@ -128,9 +168,14 @@ Molyneux, J., and {\bf \em McNamara, A.} {\bf mobilizr: An R package for high sc
 \begin{rSection}{Teaching}
 
 \begin{reSubsection}{University of St Thomas }{Department of Computer \& Information Sciences }{}{
-STAT 220: \textbf{Statistics I} \hfill Fall 2018, Spring 2019 \\
-STAT 320: \textbf{Statistics II} \hfill Fall 2018 \\
-STAT 360: \textbf{Advanced Statistical Software} \hfill Spring 2019\\}
+\\ STAT 220: \textbf{Introductory Statistics} \hfill Fall 2018, Spring 2019, Fall 2019, Spring 2020, Spring 2021 \\ \\
+STAT 220: \textbf{Introductory Statistics (R labs)} \hfill Spring 2020, Fall 2020, Spring 2022 \\ \\
+STAT 320: \textbf{Applied Regression Analysis} \hfill Fall 2018, Fall 2019, Fall 2020, Fall 2021, \\
+\hspace*{\fill} Spring 2022, Fall 2022, Spring 2023 \\ \\
+STAT 336: \textbf{Data Communication and Visualization} \hfill Spring 2020, Spring 2021, Fall 2021, \\
+\hspace*{\fill} Fall 2022, Spring 2023 \\ \\
+STAT 360: \textbf{Advanced Statistical Software} \hfill Spring 2019\\ \\
+STAT 490: \textbf{Topics: Categorical \& Text Analysis} \hfill Spring 2022\\}
 \end{reSubsection}
 
 \begin{reSubsection}{Smith College }{ Program in Statistical and Data Sciences }{2015-2018}{
@@ -153,19 +198,31 @@ STAT 101C: \textbf{Introduction to Regression and Data Mining} (Teaching fellow)
 }
 \end{reSubsection}
 
-\begin{reSubsection}{Mobilize Project }{ Professional Development Program }{2011-2014}{
- Professional Development: \textbf{Exploring Computer Science} (Leader) \\
- Professional Development: \textbf{Math and Science} (Leader) \\
-Professional Development: \textbf{Introduction to Data Science} (Leader) \\
-}
-\end{reSubsection}
+% \begin{reSubsection}{Mobilize Project }{ Professional Development Program }{2011-2014}{
+%  Professional Development: \textbf{Exploring Computer Science} (Leader) \\
+%  Professional Development: \textbf{Math and Science} (Leader) \\
+% Professional Development: \textbf{Introduction to Data Science} (Leader) \\
+% }
+% \end{reSubsection}
 \end{rSection}
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Awards}
+\begin{esSubsection}{Accessibility Award,}{ University of St.\ Thomas Disability Resources Office}{2022}
+{}{}
+\end{esSubsection}
+
+\begin{esSubsection}{Waller Education Award,}{ American Statistical Association}{2021}
+{}{}
+\end{esSubsection}
+\begin{esSubsection}{Merit Pin,}{ University of St.\ Thomas Public Safety Department}{2020}{}{}
+\end{esSubsection}
 \begin{esSubsection}{Teaching Integrity in Empirical Research Faculty Fellow,}{ Haverford College}{2015-2016}
 {Faculty Fellow}{}
 \end{esSubsection}
@@ -173,7 +230,7 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 \end{esSubsection}
 \begin{esSubsection}{Dissertation Year Fellowship,}{ University of California, Los Angeles}{2014-2015}{Fellow}{}
 \end{esSubsection}
-\begin{esSubsection}{Graduate Research Fellowship Program,}{ National Science Foundation }{2012}{Honorable Mention}{}
+\begin{esSubsection}{Graduate Research Fellowship Program Honorable Mention,}{ NSF }{2012}{}{}
 \end{esSubsection}
 \begin{esSubsection}{Chancellor's Prize Summer Fellowship,}{ University of California, Los Angeles }{2011-2012}{}{}
 \end{esSubsection}
@@ -188,9 +245,26 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Research and Consulting}
-\begin{pSubsection}{Smith College, }{Northampton, MA}{2015-2018}{Visiting Assistant Professor}
-{At Smith College, my research program focused on statistics education, statistical computing, data visualization, and spatial statistics. In Spring 2016 and Spring 2017, I led groups of undergraduate and post-baccalaureate students as part of the MTH 301 independent research seminar. We focused on Methods to Address the Change of Support and Modifiable Areal Unit Problems.}
+
+\begin{pSubsection}{NSF ITEST - Collaborative Research Grant}{ }{2021-2025}{Data science consultant}
+{PIs at the University of Nevada, St Louis University, and the University of Maine received an NSF grant entitled ``Collaborative Research: Creating and testing data science learning tools for secondary students with disabilities.'' They have taken on several advisors and consultants, including myself. My contribution involves reviewing new tooling for statistical accuracy and pedagogical relevance, as well as developing data science curriculum.}
 \end{pSubsection}
+
+\begin{pSubsection}{Coding Conventions Research Group}{ }{2021- }{Group member}
+{A group of researchers from the University of Minnesota, University of St Thomas, and Penn State University have begun collaborating on research related to R coding conventions in introductory statistics and data science courses. The group presented at USCOTS and JSM in summer 2021, and working on a paper. Other than myself, the group consists of Chelsey Legacy, Vimal Rao, Elle Basner Butler, Bob delMas, Andrew Zieffler, and Matthew Beckman.}
+\end{pSubsection}
+
+% \begin{pSubsection}{Teach the tidyverse Research Group}{ }{2021- }{Group member}
+% {A group of researchers from Duke University, Smith College, Amherst College, Pomona College, and the University of St Thomas have begun collaborating to produce an article on pedagogical reasoning for teaching the tidyverse syntax in R. The group aims to produce a paper by the fall of 2021. Other than myself, the group consists of Mine Çetinkaya-Rundel, Colin Rundel, Ben Baumer, Nick Horton, and Jo Hardin.}
+% \end{pSubsection}
+
+\begin{pSubsection}{``That seems okay to me'' Research Group}{ }{2019- }{Group member}
+{A group of researchers from Metabase, Cal Poly SLO, University of St Thomas, and Carnegie Mellon University are studying the ways experts and novices read and criticize data analysis. We received IRB approval through Cal Poly to perform user interviews, which have been coded by an undergraduate research assistant. We are in progress on writing a paper for the International Conference on Teaching Statistics. Other than myself, the group consists of  Amal Abdel-Ghani, Kelly Bodwin, Philipp Burckhardt, Ian Flores Siaca, Rebecca Nugent, Allison Theobold, and Greg Wilson.}
+\end{pSubsection}
+
+% \begin{pSubsection}{Smith College, }{Northampton, MA}{2015-2018}{Visiting Assistant Professor}
+% {At Smith College, my research program focused on statistics education, statistical computing, data visualization, and spatial statistics. In Spring 2016 and Spring 2017, I led groups of undergraduate and post-baccalaureate students as part of the MTH 301 independent research seminar. We focused on Methods to Address the Change of Support and Modifiable Areal Unit Problems.}
+% \end{pSubsection}
 
 
 \begin{pSubsection}{The Concord Consortium, }{Emeryville, CA}{September 2016-March 2017}{Consultant}
@@ -211,13 +285,34 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 \end{rSection}
 
 
-\clearpage
+
 
 %----------------------------------------------------------------------------------------
 %	SHORT COURSES
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Short courses and workshops led}
+
+\begin{sSubsection}{OpenMath Workshop}{ (with team)}{July 2022}{}{ }
+\end{sSubsection}
+
+\begin{sSubsection}{StatPREP Workshop}{ (with team)}{July 2021}{}{ }
+\end{sSubsection}
+
+\begin{sSubsection}{StatPREP Workshop}{ (with team)}{June 2021}{}{ }
+\end{sSubsection}
+
+\begin{sSubsection}{Statistical Learning in R}{}{February 2021}{Internship Network in the Mathematical Sciences (Inmas)}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Exploring the Tidyverse in R}{ (with Aaron Kessler)}{March 2020}{NICAR, Investigative Reporters \& Editors Conference}{New Orleans, LA}
+\end{sSubsection}
+
+\begin{sSubsection}{Introduction to Data Science in the Tidyverse}{ (with Hadley Wickham)}{January 2020}{rstudio::conf}{San Francisco, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{R for Social Science, Data Carpentry}{ (with Kelsey Gonzalez)}{January 2020}{Bryn Mawr College}{Bryn Mawr, PA}
+\end{sSubsection}
 
 \begin{sSubsection}{StatPREP Workshop}{ (with team)}{June 2019}{Howard Community College }{Columbia, MD}
 \end{sSubsection}
@@ -254,12 +349,56 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	INVITED TALKS
+%  TALKS
 %----------------------------------------------------------------------------------------
+\begin{rSection}{Keynotes and plenary talks}
+
+\begin{sSubsection}{Data Science as a Superpower}{ }{February 2023}{Harford Community College STEM Day}{Bel Air, MD}
+\end{sSubsection}
+
+\begin{sSubsection}{Speaking R}{ }{July 2020}{useR! The International R Users Conference}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Why the Tidyverse?}{ }{August 2019}{ noRth, University of Minnesota}{Minneapolis, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Science as a Superpower}{ }{July 2019}{ QUBES, Evolution of Data in the Classroom, William \& Mary}{Williamsburg, VA}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Journalism as a Liberal Art}{ }{June 2019}{ LACOL Data Science in the Liberal Arts, Washington and Lee University}{Lexington, VA}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Science as a Superpower}{ }{April 2018}{Introduction to Data Science Big Data Day}{Los Angeles, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{Interfacing with Data}{ }{September 2017}{Data Literacy Conference}{Aix-en-Provence, France}
+\end{sSubsection}
+
+\end{rSection}
+
 
 \begin{rSection}{Invited talks}
 
-\begin{sSubsection}{Data Journalism as a Liberal Art}{ }{June 2019}{ LACOL Data Science in the Liberal Arts, Washington and Lee University}{Lexington, VA}
+\begin{sSubsection}{What 'counts' as statistical communication?}{ }{August 2022}{Joint Statistical Meetings}{Washington, DC}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Science as a Superpower}{ }{February 2022}{University of Richmond}{}
+\end{sSubsection}
+
+\begin{sSubsection}{How Spatial Polygons Shape Our World}{ }{October 2021}{Northwestern University}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Consistency is key: A case study in R syntaxes}{ }{March 2021}{Teaching Integrity in Empirical Research (TIER) Spring Symposium}{}
+\end{sSubsection}
+
+
+\begin{sSubsection}{Thoughts on the polygon overlay problem}{ }{October 2020}{Princeton University Gerrymandering Project}{}
+\end{sSubsection}
+
+\begin{sSubsection}{How (not) to bring Wikipedia into the classroom}{ }{August 2020}{Joint Statistical Meetings}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Scraping, iterating, purring}{ }{July 2020}{noRth conference}{}
 \end{sSubsection}
 
 \begin{sSubsection}{Teaching Data Communication}{ }{May 2019}{Symposium on Statistics and Data Science (SDSS)}{Bellevue, WA}
@@ -283,13 +422,7 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 \begin{sSubsection}{Making Spatial Aggregation More Transparent}{ }{April 2018}{ 2018 CGA Conference: Illuminating Space and Time in Data Science. Harvard University}{Cambridge, MA}
 \end{sSubsection}
 
-\begin{sSubsection}{Data Science as a Superpower}{ }{April 2018}{Introduction to Data Science Big Data Day}{Los Angeles, CA}
-\end{sSubsection}
-
 \begin{sSubsection}{Scientists Programming}{}{February 2018}{Evidence about Programmers, Schloss Dagstuhl}{Wadern, Germany}
-\end{sSubsection}
-
-\begin{sSubsection}{Interfacing with Data}{ }{September 2017}{Data Literacy Conference}{Aix-en-Provence, France}
 \end{sSubsection}
 
 \begin{sSubsection}{Key Attributes of a Modern Statistical Computing Tool}{ }{March 2017}{Tableau Software}{Seattle, WA}
@@ -316,7 +449,24 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 %----------------------------------------------------------------------------------------
 %	PRESENTATIONS
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Conference Presentations}
+\clearpage
+\begin{rSection}{Contributed Conference Presentations}
+
+\begin{sSubsection}{Implications of R syntax in intro stats}{ }{July 2022}{rstudio::conf}{Washington, DC}
+\end{sSubsection}
+
+\begin{sSubsection}{Teaching modeling in introductory statistics: A comparison of formula and tidyverse syntaxes}{ }{June 2022}{useR!}{ }
+\end{sSubsection}
+
+\begin{sSubsection}{Integrating Computation in Statistics: Instructional Decisions for Teaching R}{}{Aug 2021 }{(with C. Legacy, V. Rao, E. Basner Butler, B. delMas, A. Zieffler, M. Beckman) \hfill }{ }
+\\Joint Statistical Meetings
+\end{sSubsection}
+
+\begin{sSubsection}{Making a Tidy Dress}{ }{January 2020}{rstudio::conf}{San Francisco, CA}
+\end{sSubsection}
+
+\begin{sSubsection}{We should rethink they way we think about percentages}{ }{July 2019}{SRCCON}{Minneapolis, MN}
+\end{sSubsection}
 
 \begin{sSubsection}{Visualizing Data by Hand}{ }{June 2018}{SRCCON}{Minneapolis, MN}
 \end{sSubsection}
@@ -365,7 +515,11 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 %----------------------------------------------------------------------------------------
 %	PANELS
 %----------------------------------------------------------------------------------------
+
 \begin{rSection}{Panels and Roundtables}
+
+\begin{sSubsection}{Data Communication }{ (panelist)}{June 2021}{Berkeley National Workshop on Data Science Education}{}
+\end{sSubsection}
 
 \begin{sSubsection}{Fireside Chat}{ (panelist)}{June 2019}{Symposium on Statistics and Data Science (SDSS)}{Bellevue, WA}
 \end{sSubsection}
@@ -398,6 +552,13 @@ Professional Development: \textbf{Introduction to Data Science} (Leader) \\
 %	POSTERS
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Poster presentations}
+
+\begin{sSubsection}{
+Teaching modeling in introductory statistics: A comparison of formula and tidyverse syntaxes}{}{May 2022}{eCOTS}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Computing in the Statistics Curriculum: Lessons Learned from the Educational Sciences}{}{(with C. Legacy, V. Rao, E. Basner Butler, B. delMas, A. Zieffler, M. Beckman) \hfill June 2021 }{USCOTS}{}
+\end{sSubsection}
 
 \begin{sSubsection}{Pushing the Boundary Between Tools for Learning and for Doing Statistics}{ }{August 2016 }{Joint Statistical Meetings}{Chicago, IL}
 \end{sSubsection}
@@ -459,7 +620,48 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 %	Local contributions
 %----------------------------------------------------------------------------------------
 
+
 \begin{rSection}{Local contributions}
+
+\begin{sSubsection}{Teaching Modeling in Introductory Statistics: A Comparison of Formula and Tidyverse Syntaxes.}{}{April 2023}{StatChat, University of St Thomas}{St. Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Workflow basics, Markdown, git/GitHub}{}{April 2023}{Guest lecture, DATA 400: Data Analytics Capstone, University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+
+\begin{sSubsection}{Workflow basics, Markdown, git/GitHub}{}{March 2023}{Guest lecture, DATA 400: Data Analytics Capstone, University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Journalism}{}{March 2023}{Guest lecture, JOUR 451: Advanced Multimedia Reporting, University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Text as Data}{}{April 2022}{Guest lecture, ENGL 390: The Erdrichs, University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Data Journalism}{}{March 2022}{Guest lecture, JOUR 451: Advanced Multimedia Reporting, University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Algorithmic Accountability}{}{March 2022}{Teach-in Tuesday, University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{A Career Pathway at Primarily Undergraduate Institutions (PUIs)}{}{February 2022}{University of Wisconsin, Madison}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Lunch and Learn: How to Make Your Classroom More Equitable and Inclusive - Computer and Information Sciences Case Study}{}{December 2020}{University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Spatial Gerrymandering: Can it be Avoided?}{}{September 2020}{University of Minnesota}{}
+\end{sSubsection}
+
+\begin{sSubsection}{Lunch and Learn: Assessing Students in the Fall with Integrity and Compassion}{}{July 2020}{University of St Thomas}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Women in Data Science Symposium}{ (panelist)}{November 2019}{University of Minnesota}{St Paul, MN}
+\end{sSubsection}
+
+\begin{sSubsection}{Algorithmic Inequality}{}{November 2019}{Groveland Unitarian Universalist Fellowship}{St Paul, MN}
+\end{sSubsection}
 
 \begin{sSubsection}{Activities and Thoughts on Teaching a ``Data Science for All'' Course}{}{April 2019}{Southern MN StatChat, St Olaf College}{Northfield, MN}
 \end{sSubsection}
@@ -473,7 +675,7 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 \begin{sSubsection}{Working with Spatial Data: Implications of the Change of Support Problem}{}{April 2019}{Guest lecture, PUBH 7462: Advanced Programming and Data Analysis in R, UMN}{Minneapolis, MN}
 \end{sSubsection}
 
-\begin{sSubsection}{R-Ladies Panel}{ (virtual panelist)}{March 2019}{Amherst R-Ladies}{Amherst, MA}
+\begin{sSubsection}{R-Ladies Panel}{ (panelist)}{March 2019}{Amherst R-Ladies}{Amherst, MA}
 \end{sSubsection}
 
 \begin{sSubsection}{Speed Networking Workshop}{}{December 2018}{University of St Thomas Association of Women in Science (WINS)}{St Paul, MN}
@@ -520,37 +722,46 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 %----------------------------------------------------------------------------------------
 %	SERVICE
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Service to Department, Institution, and Profession}
+\begin{rSection}{Service to Department and Institution}
 
-\begin{rSubsection}{University of St Thomas Technology Advisory Committee (UTAC)}{ }{2019-2023}{Committee Member}
-\item This four-year appointment begins Fall 2019
+\begin{rSubsection}{R for Data Science Faculty Learning Community}{}{Spring 2022}{Faculty leader}
+\item Leader of a semester-long faculty learning community, which met weekly. 
+\item Community read the book R for Data Science, to build familiarity with R.
+\item Faculty participants came from the Dougherty Family College, the Opus College of Business, the School of Engineering, and the College of Arts and Sciences. 
 \end{rSubsection}
 
-\begin{rSubsection}{University of St Thomas HHMI Inclusive Excellence Grant}{ }{2019-present}{Inclusive Excellence Advisor}
-\item Participated in Inclusive Excellence Training (May 2019)
-\item Attended welcoming events for incoming first-year students
-\item Will be serving as an Inclusive Excellence Advisor for 10 incoming first-year students for the 2019-2020 school year
+\begin{rSubsection}{University of St Thomas HR Roadmap Steering Committee}{}{2022}{Committee Member}
+\item Faculty representative to steering committee.
 \end{rSubsection}
 
-\begin{rSubsection}{University of St Thomas HHMI Inclusive Excellence Grant}{ }{2018-present}{CISC representative}
-\item Attended HHMI meetings and luncheons, representing the Computer \& Information Sciences Department's interests and reporting back to the department
+\begin{rSubsection}{Building a Community of R Users Faculty Learning Community}{}{Spring 2021}{Faculty leader}
+\item Leader of a semester-long faculty learning community, which met biweekly. 
+\item Faculty participants came from the the College of Arts and Sciences, Opus College of Business, and the School of Social Work. 
+\end{rSubsection}
+
+\begin{rSubsection}{College of Arts and Sciences DEI Taskforce}{ }{2020-2021}{Committee Member}
+\item Also a member of the HEDS data sub-committee.
+\end{rSubsection}
+
+\begin{rSubsection}{University of St Thomas Data Analytics Faculty Board}{ }{2020-2022}{Committee Member}
+\item This two year term ends May 2022.
+\end{rSubsection}
+
+\begin{rSubsection}{University of St Thomas Technology Advisory Committee (UTAC)}{ }{2019-2023}{Co-chair}
+\item Four-year appointment begain Fall 2019 and ends 2023. 
+\item Faculty co-chair of the committee for the 2020-2021 and 2021-2022 school years.
+\item Member of the Information Security Consulting Group (ISCG), a sub-committee of UTAC, for the 2022-2023 school year.
+\end{rSubsection}
+
+\begin{rSubsection}{University of St Thomas HHMI Inclusive Excellence Grant}{ }{2019-present}{Inclusive Excellence Advisor, CISC representative}
+\item Participated in Inclusive Excellence Training, and serve as an Inclusive Excellence Advisor for incoming first-year students.
+\item As a CISC representative, represent the Computer \& Information Science Department's interests and serve as a reporter between the grant and department. 
+\item Attend yearly HHMI Inclusive Excellence conferences as a participant. 
 \end{rSubsection}
 
 \begin{rSubsection}{University of St Thomas Statistics Program Committee}{ }{2018-present}{Member}
 \item Assisted in the development of new curriculum for the statistics program, including changes to the statistics major and minor, the development and proposal of new upper-level courses, and discussion of statistics-related courses in other disciplines. 
 \end{rSubsection}
-
-\begin{rSubsection}{Joint Statistical Meetings Program Committee}{ }{2019-2020}{Statistics and Data Science Education Section Chair}
-\item As section chair-elect, organized roundtables and Birds of a Feather sessions for the Section on Statistics and Data Science Education for JSM 2019
-\item Served as proxy for current section chair at March 2019 JSM organizing meeting in Alexandria, VA
-\item As section chair, will organize invited sessions, contributed sessions, and poster sessions for the Section on Statistics and Data Science Education for JSM 2020
-\end{rSubsection}
-
-\begin{rSubsection}{Statistics and Data Science Symposium Program Committee}{}{2018-2019}{Visualization co-chair, with Silas Bergan}
-\item As co-chair, helped organize invited sessions on visualization for SDSS
-\item As co-chair, organized and scheduled contributed sessions on visualization for SDSS
-\end{rSubsection}
-
 
 \begin{rSubsection}{Smith College Statistical and Data Sciences Program Committee}{}{2015-2018}{Faculty member}
 \item Assisted in developing the major in Statistical and Data Sciences (approved April 2016).
@@ -561,14 +772,6 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 \end{rSubsection}
 
 
-\begin{rSubsection}{Women in Statistics and Data Science Conference (WSDS)}{ San Diego, CA}{2017}{Panel chair}
-\item WSDS R-Ladies Panel: Improving Gender Diversity in a Male-Dominated Community
-\end{rSubsection}
-
-\begin{rSubsection}{Joint Statistical Meetings}{ Chicago, IL}{2016}{Session Chair}
-\item Toward Better Communication of Information with Statistical Graphics -- Contributed Papers
-\item Reproducibility in Statistics and Data Science -- Invited Papers (substitute chair)
-\end{rSubsection}
 
 \begin{rSubsection}{Five College DataFest}{}{2015-2018}{Co-organizer with Ben Baumer }
 \item Planned and executed the 2016 and 2017 FiveCollege DataFests
@@ -587,14 +790,6 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 \item Assisted in coordinating donations and swag from corporations like GitHub, Google, Revolution Analytics, and RStudio. 
 \end{rSubsection}
 
-\begin{rSubsection}{Los Angeles useR! Conference Organizing Committee}{}{2013-2014}{Planning Member}
-\item Assisted in planning and executing the 2014 international R user conference (700 attendees).
-\item Recruited and coordinated 80 student volunteers.
-\item Assisted with conference website before, during, and after the conference.
-\item Promoted conference on social media, encouraged minority participation.
-\item Supervised on-the-ground conference logistics, including registration, catering, and facilities services. 
-\end{rSubsection}
-
 \begin{rSubsection}{UCLA Graduate Student Orientation Planning Committee}{}{2012-2013}{Tour Coordinator}
 \item Helped plan and execute the 2012 and 2013 UCLA grad student orientations, attended by 1,000+ incoming graduate students each year. 
 \item Discussed general orientation issues, such as panel topics and logistical concerns.
@@ -603,38 +798,107 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 \item On the day of orientation, coordinated hourly tours and assigned tour guides to routes.
 \end{rSubsection}
 
-\begin{rSubsection}{Macalester College Admissions}{}{2013-present}{Volunteer interviewer and college representative}
-\item Performed alumni interviews of prospective students applying to Macalester in Southern California and Western Massachusetts 
-\item Represented Macalester at the 2015 Vistamar College Fair, answering questions about Macalester and the admissions process
-\end{rSubsection}
-
-\begin{rSubsection}{Southern California AP Statistics Poster Competition}{}{2014}{Judge}
-\item Judged entries to the 2014 Southern California AP Statistics Poster Competition
-\end{rSubsection}
+% \begin{rSubsection}{Macalester College Admissions}{}{2013-present}{Volunteer interviewer and college representative}
+% \item Performed alumni interviews of prospective students applying to Macalester in Southern California and Western Massachusetts.
+% \item Represented Macalester at the 2015 Vistamar College Fair, answering questions about Macalester and the admissions process.
+% \end{rSubsection}
 
 \begin{rSubsection}{UC Day in DC}{}{May 2013}{University of California, Los Angeles Delegate}
 \item Represented UCLA and graduate student interests at the University of California's annual federal advocacy day in Washington, DC. 
-\item Met with congress members and their staff to discuss Federal funding for programs impacting grad students. 
+\item Met with congressmembers and their staff to discuss Federal funding for programs impacting graduate students. 
 \end{rSubsection}
 
 \begin{rSubsection}{UCLA Graduate Resource Center Oversight Committee}{}{2011-2012}{Voting Member}
-\item Assisted in developing a new strategic plan for UCLA's graduate resource center
+\item Assisted in developing a new strategic plan for UCLA's graduate resource center.
+\end{rSubsection}
+\end{rSection}
+
+
+\begin{rSection}{Service to Profession}
+
+\begin{rSubsection}{Journal of Visualization and Interaction (JoVI)}{}{2023-}{Advisory Board Member}
+\item Assist with development of long-range journal vision, 
+\end{rSubsection}
+
+\begin{rSubsection}{NAS-NSF Tools \& Transfer Working Group}{}{2023}{Working group member}
+\item The National Academies of Sciences and the National Science Foundation, along with Data Science 4 Everyone, the Concord Consortium and the Valhalla Foundation, have developed a series of Research-Practice Working Groups.
+\item The Tools \& Transfer working group is tasked with considering the issues of technology tools for K-12 data science, as well as transfer within/between tools.
+\item Over a series of four working group meetings, the group developed a report draft.
+\end{rSubsection}
+
+\begin{rSubsection}{American Statistical Association Council of Sections}{}{2023-2025}{Representative for the Section on Statistics and Data Science Education}
+\item Elected representative for the Section on Statistics and Data Science Education (SSDSE).
+\item Attend council of sections meetings, representing SSDSE. 
+\end{rSubsection}
+
+\begin{rSubsection}{Journal of Statistics and Data Science Education (JSDSE)}{}{2022-present}{Associate editor}
+\item Associate editor added to build data science education expertise at the journal.
+\end{rSubsection}
+
+\begin{rSubsection}{Foundations of Data Science (FoDS) journal}{}{2021}{Guest editor}
+\item Guest editor for special issue ``Data Science Education Research.''
+\item Worked with other guest editors to develop solicitation.
+\item Publicized solicitation and sought submissions.
+\item Assessed proposed submissions.
+\end{rSubsection}
+
+\begin{rSubsection}{Dagstuhl Seminar: Transparent Quantitative Research as a User Interface Problem}{}{2022}{Member of organizing committee}
+\item Over the course of two years, iteratively wrote and submitted two proposals for a Dagstuhl seminar. Second proposal was accepted.
+\item Seminar will take place September 25-30, 2022, in Wadern, Germany. 
+\item Co-organizers: Chat Wacharamanotham, Judy Robertson, Yvonne Jansen, Kasper Hornbæk. 
+\end{rSubsection}
+
+\begin{rSubsection}{Joint Statistical Meetings Program Committee}{ }{2019-2020}{Section on Statistics and Data Science Education Chair}
+\item As section chair-elect, organized roundtables and Birds of a Feather sessions for the Section on Statistics and Data Science Education for JSM 2019.
+\item Served as proxy for current section chair at March 2019 JSM organizing meeting in Alexandria, VA.
+\item As section chair, organized invited sessions, contributed sessions, and poster sessions for the Section on Statistics and Data Science Education for JSM 2020.
+\item As section chair, reorganized invited sessions, contributed sessions, and poster sessions for the Section on Statistics and Data Science Education for the online version of JSM 2020 when covid-19 forced a pivot.
+\end{rSubsection}
+
+\begin{rSubsection}{Statistics and Data Science Symposium Program Committee}{}{2018-2019}{Visualization co-chair, with Silas Bergan}
+\item As co-chair, helped organize invited sessions on visualization for SDSS.
+\item As co-chair, organized and scheduled contributed sessions on visualization for SDSS.
+\end{rSubsection}
+
+\begin{rSubsection}{Women in Statistics and Data Science Conference (WSDS)}{ San Diego, CA}{2017}{Panel chair}
+\item WSDS R-Ladies Panel: Improving Gender Diversity in a Male-Dominated Community.
+\end{rSubsection}
+
+\begin{rSubsection}{Joint Statistical Meetings}{ Chicago, IL}{2016}{Session Chair}
+\item Toward Better Communication of Information with Statistical Graphics -- Contributed Papers.
+\item Reproducibility in Statistics and Data Science -- Invited Papers (substitute chair).
+\end{rSubsection}
+
+\begin{rSubsection}{Los Angeles useR! Conference Organizing Committee}{}{2013-2014}{Planning Member}
+\item Assisted in planning and executing the 2014 international R user conference (700 attendees).
+\item Recruited and coordinated 80 student volunteers.
+\item Assisted with conference website before, during, and after the conference.
+\item Promoted conference on social media, encouraged minority participation.
+\item Supervised on-the-ground conference logistics, including registration, catering, and facilities services. 
+\end{rSubsection}
+
+\begin{rSubsection}{Southern California AP Statistics Poster Competition}{}{2014}{Judge}
+\item Judged entries to the 2014 Southern California AP Statistics Poster Competition.
 \end{rSubsection}
 
 
 \begin{rSubsection}{Ad-hoc referee}{}{2014-present}{Journals:}
-\item Journal of Statistics Education (JSE)
-\item Journal of Statistical Software (JSS)
-\item Statistics Education Research Journal (SERJ)
-\item Technology Innovations in Statistics Education (TISE)
 \item The American Statistician (TAS)
 \item Computer Science Education (CSE)
+\item Harvard Data Science Review (HDSR)
+\item Journal of Statistical Software (JSS)
+\item Journal of Statistics and Data Science Education (JSDSE)
 \item PLOS Biology 
+\item Statistics Education Research Journal (SERJ)
+\item Statistics and Public Policy (SPP)
+\item Technology Innovations in Statistics Education (TISE)
 \end{rSubsection}
 
 \begin{rSubsection}{Ad-hoc referee}{}{2017-present}{Conferences: }
-\item Institute of Electrical and Electronics Engineers Vis Conference (IEEE VIS)
+\item ACM Interaction Design and Children Conference (IDC)
 \item Conference on Human Factors in Computing Systems (CHI)
+\item Institute of Electrical and Electronics Engineers Vis Conference (IEEE VIS)
+\item International Conference on Teaching Statistics (ICOTS)
 \end{rSubsection}
 
 \end{rSection}
@@ -649,10 +913,10 @@ Institute for Mathematics and its Applications, Minneapolis, MN \hfill July 2009
 Languages & Expert: R, \LaTeX, HTML, Markdown \\
  & Intermediate: Spanish, Python, git, JavaScript, Matlab, Mathematica, ArcGIS \\
 
-Social Media & Twitter: \textbf{@AmeliaMN}, 9,400+ tweets, 8,500+ followers \\
-& Currently managing  \\
+Social Media & Twitter: \textbf{@AmeliaMN}, 18,000+ followers \\
 & Formerly managed \textbf{@SmithCollegeSDS}, \textbf{@FiveCollegeStat}, \\
 & \textbf{@UCLADataFest}, \textbf{@user2014\_UCLA}  \\
+& YouTube: \textbf{\href{https://www.youtube.com/c/AmeliaMcNamara}{youtube.com/c/AmeliaMcNamara}}, 2,000+ subscribers \\
 %& Blog: contributor and member of leadership team, \url{www.datascience.la} \\
 % & Blog: maintainer, \url{www.science.smith.edu/~amcnamara/blog} \\
 
@@ -672,6 +936,10 @@ Social Media & Twitter: \textbf{@AmeliaMN}, 9,400+ tweets, 8,500+ followers \\
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Memberships in Professional Societies}
+
+\begin{esSubsection}{Association for Computing Machinery }{(ACM)}{2019-present}{}{}
+\end{esSubsection}
+
 \begin{esSubsection}{American Statistical Association }{(ASA)}{2012-present}{}{}
 \end{esSubsection}
 
